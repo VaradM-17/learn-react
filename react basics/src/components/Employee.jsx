@@ -7,8 +7,17 @@ class Employee extends React.Component {
     this.state = {
       firstName: "Varad",
       lastName: "Mule",
-      email:"varad@gmail.com"
+      email: "varad@gmail.com",
     };
+  }
+
+  
+  updateEmloyee() {
+    this.setState({
+      firstName: "Vam",
+      lastName: "Mule",
+      email: "vam@gmail.com",
+    });
   }
 
   render() {
@@ -18,6 +27,8 @@ class Employee extends React.Component {
         <p>{this.state.firstName}</p>
         <p>{this.state.lastName}</p>
         <p>{this.state.email}</p>
+
+        <button onClick={() => this.updateEmloyee()}>Update</button>
       </div>
     );
   }
