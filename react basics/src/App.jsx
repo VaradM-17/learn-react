@@ -5,19 +5,17 @@ import Welcome from "./components/Welcome";
 import "./App.css";
 import Greetings from "./components/Greetings";
 import Employee from "./components/Employee";
-
+import User from "./components/User";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  
   return (
-    <>
-      <div className="App">
-        {/* <Welcome name="Varad"></Welcome>
+    <div className="App">
+      {/* <Welcome name="Varad"></Welcome>
         <Greetings></Greetings> */}
-        <Employee></Employee>
-      </div>
-    </>
+      {/* <Employee></Employee> */}
+      <User></User>
+    </div>
   );
 }
 
