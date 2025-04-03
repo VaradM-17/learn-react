@@ -6,7 +6,8 @@ import "./App.css";
 import Greetings from "./components/Greetings";
 import Employee from "./components/Employee";
 import User from "./components/User";
-import EventHandling from "./components/EvenntHandling";
+import EventHandling from "./components/EventHandling";
+import ConditionRendering from "./components/ConditionRendering";
 
 function App() {
   
@@ -16,7 +17,8 @@ function App() {
         <Greetings></Greetings> */}
       {/* <Employee></Employee> */}
       {/* <User></User> */}
-      <EventHandling></EventHandling>
+      {/* <EventHandling></EventHandling> */}
+      <ConditionRendering></ConditionRendering>
     </div>
   );
 }
