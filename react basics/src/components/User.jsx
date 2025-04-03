@@ -2,18 +2,18 @@ import React from "react";
 import { useState } from "react";
 
 const User = () => {
-//   const [firstName, setfirstName] = useState("Varad");
+  //   const [firstName, setfirstName] = useState("Varad");
 
-  const [user,setUser]=useState({
-    firstName:"Varad"
-  })
+  const [user, setUser] = useState({
+    firstName: "Varad",
+  });
 
   function updateUser() {
     // setfirstName("Vam");
 
     setUser({
-        firstName:"Vam"
-    })
+      firstName: "Vam",
+    });
   }
 
   return (

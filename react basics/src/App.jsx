@@ -6,6 +6,7 @@ import "./App.css";
 import Greetings from "./components/Greetings";
 import Employee from "./components/Employee";
 import User from "./components/User";
+import EventHandling from "./components/EvenntHandling";
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
       {/* <Welcome name="Varad"></Welcome>
         <Greetings></Greetings> */}
       {/* <Employee></Employee> */}
-      <User></User>
+      {/* <User></User> */}
+      <EventHandling></EventHandling>
     </div>
   );
 }
